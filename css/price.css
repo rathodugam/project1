@@ -1,0 +1,147 @@
+/* navbar  */
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: none;
+    position: relative;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: ;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+.margin {
+    margin-left: 68vw;
+}
+
+.nav-title a {
+    color: black;
+}
+
+
+/* media  */
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: none;
+    }
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid black;
+    }
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: none;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 40px;
+    }
+    .nav>.nav-links>a {
+        display: inline-block;
+        width: 100%;
+    }
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+
+/* end media  */
+
+
+/* end navbar  */
+
+.container {
+    margin-top: 15vh;
+}
+
+.btn {
+    margin-top: 5vh;
+}
+
+.all {
+    margin-top: 8vh;
+}
+
+.first-font {
+    color: brown;
+    font-weight: 600;
+}
+
+
+/* login  */
+
+.logo-image {
+    margin-top: 0px;
+    margin-left: 30vh;
+    margin-bottom: 10vh;
+}
+
+
+/* end login  */
+
+
+/* blogs  */
+
+.fa-size {
+    font-size: 40px;
+}
+
+
+/* end blogs  */
