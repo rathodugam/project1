@@ -28,32 +28,34 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-                <div class="nav-title">
-                    <a href="index.html"> <img src="image/logo.png" height="30px" width="30px">Scoutred</a>
-                </div>
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </label>
-            </div>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="index.html"><img src="image/logo.png" height="30" width="30">Scoutred</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="nav-links margin ">
-                <a href="page/price.html" target="">PRICING</a>
-                <li class="nav-item d-none d-md-inline border-right"></li>
-                <a href="page/login.html" target="">LOGIN</a>
-                <a href="page/login.html" target="">SIGNUP</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page/price.html">PRICING<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item d-none d-md-inline border-right"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page/login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page/login.html">SINGUP</a>
+                    </li>
+                </li>
+            </ul>
 
-            </div>
+
+            </form>
         </div>
-    </header>
-
+    </nav>
+    <!-- end navbar  -->
     <!-- first section  -->
     <div class="container">
         <div class=" row map">
@@ -256,15 +258,21 @@
 
                     </div>
                 </div>
+                <div class="row mt-3">
+                    <div class="col text-center">
+                        <a class="f-nav-link pl-4 pr-2" href="page/login.html">CONTACT</a>
+                        <a class="f-nav-link pr-2" href="page/blog.html">BLOG</a>
+                        <a class="f-nav-link pr-2" href="page/term.html">TERMS</a>
+                        <a class="f-nav-link" href="page/Privacy.html">PRIVACY</a>
+                    </div>
 
-            </div>
+                </div>
 
         </footer>
         <!-- end footer -->
 
 
         </footer>
-
 
 
 

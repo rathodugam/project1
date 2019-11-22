@@ -28,32 +28,34 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-                <div class="nav-title">
-                    <a href="../index.html"> <img class="img-responsive" src="../image/logo.png" height="30px" width="30px">Scoutred</a>
-                </div>
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </label>
-            </div>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="../index.html"><img src="../image/logo.png" height="30" width="30">Scoutred</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
 
-            <div class="nav-links margin ">
-                <a href="price.html" target="">PRICING</a>
-                <li class="nav-item d-none d-md-inline border-right"></li>
-                <a href="login.html" target="">LOGIN</a>
-                <a href="login.html" target="">SIGNUP</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../page/price.html">PRICING<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item d-none d-md-inline border-right"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/login.html">SINGUP</a>
+                    </li>
+                </li>
+            </ul>
 
-            </div>
+
+            </form>
         </div>
-    </header>
-    <!-- end header section  -->
+    </nav>
+    <!-- end navbar  -->
     <!-- first section  -->
     <div class="container">
         <h1 class="text-center">Stop digging through public records!</h1>
@@ -304,7 +306,30 @@
                 </div>
             </div>
         </div>
+        <div class="container pt-5 border-top d-md-none ">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="../image/logo.png" width="25" height="25" class=""> <a href="../index.html">Scoutred</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-outline-secondary btn-block mt-3" href="price.html">PRICING</a>
 
+                    <a class="btn btn-outline-secondary btn-block" href="login.html">LOG IN</a>
+                    <a class="btn btn-outline-secondary btn-block" href="login.html">SIGN UP</a>
+
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <a class="f-nav-link pl-4 pr-2" href="/">CONTACT</a>
+                    <a class="f-nav-link pr-2" href="blog.html">BLOG</a>
+                    <a class="f-nav-link pr-2" href="term.html">TERMS</a>
+                    <a class="f-nav-link" href="Privacy.html">PRIVACY</a>
+                </div>
+
+            </div>
 
     </footer>
     <!-- end footer -->
