@@ -102,6 +102,9 @@
     .embed-responsive-16by9 {
         height: 70%;
     }
+    .example-buttion {
+        margin-top: 5px;
+    }
 }
 
 @media (max-width:900px) {
