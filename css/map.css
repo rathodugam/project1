@@ -94,26 +94,26 @@
 
 .box {
     height: 100%;
-    width: 35%;
+    width: 100%;
     background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
-    opacity: .7;
-    margin-left: 15vh;
+    margin-left: 0vh;
     margin-top: 1vh;
     color: #fff;
     padding: 1vh;
 }
 
 .scroller {
-    width: 35%;
+    width: 100%;
     height: 465px;
     overflow-y: scroll;
     scrollbar-color: white rebeccapurple;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
-    margin-left: 15vh;
+    margin-left: 0vh;
     padding-top: 5vh;
+    background-color: #fff;
 }
 
 .box1 {
@@ -121,9 +121,9 @@
     background-color: rgb(233, 7, 7);
     overflow-x: hidden;
     color: #fff;
-    margin-left: 15vh;
+    margin-left: 0vh;
     padding: 5px;
-    width: 35%;
+    width: 100%;
 }
 
 .font1 {
@@ -141,18 +141,60 @@
 
 @media(max-width: 600px) {
     .box {
-        width: 85%;
-        margin-left: 10vh;
+        width: 100%;
+        margin-left: 0vh;
     }
     .box1 {
-        width: 85%;
-        margin-left: 10vh;
+        width: 100%;
+        margin-left: 0vh;
     }
     .scroller {
-        width: 85%;
-        margin-left: 10vh;
+        width: 100%;
+        margin-left: 0vh;
     }
     .btn {
         width: auto;
     }
+}
+
+
+/* example  */
+
+.side {
+    height: auto;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 77px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: .8;
+}
+
+@media(max-width:600) {
+    .side {
+        left: 0px;
+    }
+}
+
+.side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side a:hover {
+    color: #f1f1f1;
+}
+
+.side .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
