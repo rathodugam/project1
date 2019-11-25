@@ -91,5 +91,21 @@
     }
 }
 
+@media(max-width:1024px) {
+    .logo-image {
+        margin-top: 0px;
+        margin-left: 13vh;
+        margin-bottom: 10vh;
+    }
+}
+
+@media(max-width :768px) {
+    .logo-image {
+        margin-top: 0px;
+        margin-left: 11vh;
+        margin-bottom: 10vh;
+    }
+}
+
 
 /* end media  */

@@ -2,7 +2,7 @@
 
 .sidenav {
     height: 100%;
-    width: 75px;
+    width: 66px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -28,8 +28,8 @@
     color: #f1f1f1;
 }
 
-.user {
-    margin-top: 400px;
+.navbar {
+    margin-top: 60vh;
 }
 
 .main {
@@ -56,11 +56,11 @@
 /* searchbar  */
 
 .search {
-    width: 40%;
+    width: 28%;
     position: absolute;
     display: flex;
     margin-top: -586px;
-    margin-left: 78px;
+    margin-left: 66px;
 }
 
 .searchTerm {
@@ -94,11 +94,11 @@
 
 .box {
     height: auto;
-    width: 40%;
+    width: 28%;
     background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
-    margin-left: 10vh;
+    margin-left: 51px;
     margin-top: -548px;
     color: #fff;
     padding: 1vh;
@@ -110,21 +110,21 @@
     background-color: rgb(233, 7, 7);
     overflow-x: hidden;
     color: #fff;
-    margin-left: 10vh;
+    margin-left: 51px;
     padding: 5px;
-    width: 40%;
+    width: 28%;
     margin-top: -448px;
     position: absolute;
 }
 
 .scroller {
-    width: 40%;
-    height: 465px;
+    width: 28%;
+    height: 398px;
     overflow-y: scroll;
     scrollbar-color: white rebeccapurple;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
-    margin-left: 10vh;
+    margin-left: 51px;
     padding-top: 5vh;
     background-color: #fff;
     position: absolute;
@@ -146,19 +146,54 @@
 
 @media(max-width: 600px) {
     .box {
-        width: 100%;
-        margin-left: 0vh;
+        width: 80%;
+        margin-left: 9vh;
     }
     .box1 {
-        width: 100%;
-        margin-left: 0vh;
+        width: 80%;
+        margin-left: 9vh;
     }
     .scroller {
-        width: 100%;
-        margin-left: 0vh;
+        width: 80%;
+        margin-left: 9vh;
     }
     .btn {
         width: auto;
+    }
+    .search {
+        width: 79%;
+        position: absolute;
+        display: flex;
+        margin-top: -586px;
+        margin-left: 78px;
+    }
+    .side {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .box {
+        width: 80%;
+        margin-left: 9vh;
+    }
+    .box1 {
+        width: 80%;
+        margin-left: 9vh;
+    }
+    .scroller {
+        width: 80%;
+        margin-left: 9vh;
+    }
+    .btn {
+        width: auto;
+    }
+    .search {
+        width: 79%;
+        position: absolute;
+        display: flex;
+        margin-top: -586px;
+        margin-left: 78px;
     }
 }
 
@@ -209,9 +244,9 @@
 
 .login {
     background-color: black;
-    width: 100%;
+    width: 93%;
 }
 
 .logo {
-    margin-left: 30vh;
+    margin-left: 20vh;
 }
