@@ -7,7 +7,7 @@
     overflow-x: hidden;
     padding-top: 10px;
     margin-left: 45px;
-    margin-top: -550px;
+    margin-top: -585px;
     color: #fff;
     padding: 1vh;
     position: absolute;
@@ -21,13 +21,13 @@
     margin-left: 45px;
     padding: 5px;
     width: 28%;
-    margin-top: -448px;
+    margin-top: -488px;
     position: absolute;
 }
 
 .scroller {
     width: 28%;
-    height: 398px;
+    height: 440px;
     overflow-y: scroll;
     scrollbar-color: white rebeccapurple;
     border-top: 1px solid #999;
@@ -36,7 +36,7 @@
     padding-top: 5vh;
     background-color: #fff;
     position: absolute;
-    margin-top: -399px;
+    margin-top: -440px;
 }
 
 .font1 {
@@ -212,7 +212,7 @@
     width: 70%;
     position: absolute;
     display: flex;
-    margin-top: -586px;
+    margin-top: -620px;
 }
 
 .searchTerm {
